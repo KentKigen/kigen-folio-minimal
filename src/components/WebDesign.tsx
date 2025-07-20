@@ -1,16 +1,16 @@
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { ExternalLink, Github } from 'lucide-react';
-import webProject1 from '../assets/web-project-1.jpg';
-import webProject2 from '../assets/web-project-2.jpg';
-import webProject3 from '../assets/web-project-3.jpg';
+import studealzMockup from '../assets/studealz-mockup.jpg';
+import betlyticsDashboard from '../assets/betlytics-dashboard.jpg';
+import fintrakInterface from '../assets/fintrak-interface.jpg';
 
 const projects = [
   {
     id: 1,
     title: "Studealz – Mobile App for Student Discounts",
     description: "A Figma-designed mobile-first app connecting students with exclusive offers and discounts. Features clean card layouts, advanced filter systems, and youthful branding designed to resonate with the student community.",
-    image: webProject1,
+    image: studealzMockup,
     tools: ["Figma", "Python", "Flask", "Location API"],
     problem: "Students struggled to find relevant discounts and offers in their area, missing out on savings opportunities.",
     solution: "Created a location-based mobile app with intuitive filtering and card-based design for easy discount discovery.",
@@ -22,7 +22,7 @@ const projects = [
     id: 2,
     title: "Betlytics – Betting Prediction & Analytics Platform",
     description: "A comprehensive dashboard interface providing betting odds, predictions, and insights. Built with advanced data analysis capabilities and machine learning for accurate match prediction engines.",
-    image: webProject2,
+    image: betlyticsDashboard,
     tools: ["Python", "Pandas", "Flask", "Streamlit", "Chart.js"],
     problem: "Sports bettors lacked access to data-driven insights and predictive analytics for informed betting decisions.",
     solution: "Developed an analytics platform with real-time data processing, visualization, and predictive modeling for better betting strategies.",
@@ -34,7 +34,7 @@ const projects = [
     id: 3,
     title: "FinTrak – Personal Finance Tracker",
     description: "A gamified personal finance application featuring expense/income tracking, savings goals, and clean dashboard interfaces. Built with comprehensive CRUD operations and data export capabilities.",
-    image: webProject3,
+    image: fintrakInterface,
     tools: ["Django", "Streamlit", "Python", "SQLite", "Chart.js"],
     problem: "Users found traditional finance apps overwhelming and lacked motivation to maintain consistent tracking habits.",
     solution: "Created a gamified interface with intuitive dashboards, budget analysis, and reward systems to encourage financial wellness.",
